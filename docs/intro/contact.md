@@ -82,7 +82,7 @@ itchat.search_mps(userName='@abcdefg1234567', name='LittleCoder')
 * 为了保证群聊信息在热启动中可以被正确的加载，即使不需要持续在线的程序也需要运行`itchat.run()`
 * 如果不想要运行上述命令，请在退出程序前调用`itchat.dump_login_status()`，更新热拔插需要的信息
 
-群聊的搜索方法为`search_chatrooms`，有两种搜索方法：
+群聊的搜索方法为```search_chatrooms`，有两种搜索方法：
 1. 获取特定`UserName`的群聊
 2. 获取名字中含有特定字符的群聊
 
